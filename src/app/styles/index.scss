@@ -1,0 +1,18 @@
+@import './normalize.scss';
+@import './vars.scss';
+@import './light-theme-vars.scss';
+@import './dark-theme-vars.scss';
+
+body {
+  font-family: var(--main-font-family);
+  font-weight: var(--main-font-weight);
+  font-size: var(--main-font-size);
+  line-height: var(--main-line-height);
+}
+
+button {
+  font-weight: var(--button-font-weight);
+  font-size: var(--button-font-size);
+  line-height: var(--button-line-height);
+  text-transform: uppercase;
+}
